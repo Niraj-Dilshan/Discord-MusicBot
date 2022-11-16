@@ -3,7 +3,7 @@ module.exports = {
   ExpressServer: true, // If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", // Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
-  SupportServer: "https://discord.gg/MYxQkws", // Support Server Link
+  SupportServer: "​https://discord.gg/rpvMpDYcFR", // Support Server Link
   Token: process.env.Token || "", // Discord Bot Token
   ClientID: process.env.Discord_ClientID || "", // Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "", // Discord Client Secret
@@ -24,9 +24,7 @@ module.exports = {
     name: "Music", // The message shown
     type: "LISTENING", // PLAYING, WATCHING, LISTENING, STREAMING
   },
-
-  // You need a lavalink server for this bot to work!!!!
-  // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
+  
   Lavalink: {
     id: "Main", //- Used for indentifier. You can set this to whatever you want.
     host: "129.146.28.224", //- The host name or IP of the lavalink server.

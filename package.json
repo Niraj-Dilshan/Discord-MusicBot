@@ -10,10 +10,6 @@
     "format": "prettier --write .",
     "prepare": "husky install"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SudhanPlayz/Discord-MusicBot.git"
-  },
   "engines": {
     "node": "^12.x"
   },
@@ -24,12 +20,8 @@
     "music",
     "discord-music"
   ],
-  "author": "SudhanPlayz",
+  "author": "INFINITY",
   "license": "SEE LICENSE IN LICENSE",
-  "bugs": {
-    "url": "https://github.com/SudhanPlayz/Discord-MusicBot/issues"
-  },
-  "homepage": "https://github.com/SudhanPlayz/Discord-MusicBot#readme",
   "dependencies": {
     "colors": "^1.4.0",
     "cpu-stat": "^2.0.1",
